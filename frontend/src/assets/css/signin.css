@@ -1,0 +1,58 @@
+/* Signin */
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 90px); /* Adjust based on your layout */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.signin-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+}
+
+.signin-form-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 24px !important;
+  color: #232323;
+}
+
+.signin-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.form-error {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.stay-connected {
+  margin-top: 16px;
+}
+
+.forgot-password {
+  margin-top: 16px;
+  text-align: right;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+  .signin-form {
+    padding: 20px;
+  }
+
+  .signin-buttons {
+    flex-direction: column-reverse;
+    gap: 12px;
+  }
+
+  .signin-buttons button {
+    width: 100%;
+  }
+}
